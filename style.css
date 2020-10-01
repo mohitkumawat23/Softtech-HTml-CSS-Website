@@ -25,7 +25,7 @@ img {
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    user-drag: none;
+    -user-drag: none;
 }
 
 
@@ -610,6 +610,7 @@ textarea::-ms-input-placeholder
 .home-content p{
     margin-bottom: 30px;
     color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .home-content .home-contact{
     margin-top: 90px;
@@ -682,7 +683,6 @@ textarea::-ms-input-placeholder
 }
 
 /* Service2 Section */
-.service2{}
 .service_content{
     width: 90%;
     margin: 0 auto;
@@ -778,7 +778,6 @@ textarea::-ms-input-placeholder
     position: relative;
     z-index: 1;
     display: inline-block;
-    float: left;
     width: 90px;
     height: 35px;
     line-height: 40px;
@@ -851,7 +850,7 @@ textarea::-ms-input-placeholder
     /* fix a bug on IOS8 - rotating elements dissapear*/
     -webkit-perspective: 2000px;
     -moz-perspective: 2000px;
-    perspective: 2000px;
+    -perspective: 2000px;
 }
 .cd-pricing-wrapper.is-switched .is-visible {
     /* totate the tables - anticlockwise rotation */

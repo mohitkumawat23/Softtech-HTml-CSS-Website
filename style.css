@@ -605,11 +605,11 @@ textarea::-ms-input-placeholder
     font-size:48px;
     font-weight:700;
     margin-bottom: 30px;
-    color: #fff;
+    color: black;
 }
 .home-content p{
     margin-bottom: 30px;
-    color: #fff;
+    color: light-coral;
 }
 .home-content .home-contact{
     margin-top: 90px;
